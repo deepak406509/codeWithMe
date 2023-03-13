@@ -1,0 +1,5 @@
+document.querySelectorAll("#items li:nth-child(2)").style.color = "green";
+let oddItems = document.querySelectorAll("#items li:nth-child(odd)");
+for (let i = 0; i < oddItems.length; i++) {
+  oddItems[i].style.backgroundColor = "green";
+}
